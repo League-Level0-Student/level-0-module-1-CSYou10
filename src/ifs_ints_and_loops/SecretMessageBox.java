@@ -20,7 +20,7 @@ public class SecretMessageBox {
 	public static void main(String[] args) {
 
 		// 1. Set a password in a String variable
-		String r = "Romans828*";
+		String r = "BOB";
 		// 2. Using a pop-up, ask the first person for a secret message and store it in
 		String input = JOptionPane.showInputDialog("Type in a message.");
 		// a variable

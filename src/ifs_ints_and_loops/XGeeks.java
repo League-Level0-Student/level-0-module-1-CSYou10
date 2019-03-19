@@ -16,11 +16,23 @@ public class XGeeks {
 public static void main(String[] args) {
 
 		// 1. Save the superpower for each person in a variable.
-
+String Power1 = "writing recipes";
+String Power2 = "flyng";
 		// 2. Ask the user to enter a name. Store their answer in a variable.
-
+String riddle3 = JOptionPane.showInputDialog("Enter a name");
+// 4. If they got the answer right, pop up "correct!" and increase the score by
+// one
+if (riddle3.equals("June")) {
+	JOptionPane.showMessageDialog(null, "Your superpower is "+Power1);
+	} else {
+	JOptionPane.showMessageDialog(null, "You don't have a Super Power");
+	String riddle2 = JOptionPane.showInputDialog("Now put in your name!");
+	if (riddle2.equals("RandomPerson")) {
+		JOptionPane.showMessageDialog(null, "Your superpower is "+Power2);
+		} else {
+		JOptionPane.showMessageDialog(null, "You don't have a Super Power");
 		// 3. Show the superpower in a pop-up, depending on the name entered. 
 
 	}
-}
+}}}
 
